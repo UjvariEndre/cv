@@ -3,97 +3,62 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Endre's Personal Site</title>
+  <title>Endre Újvári</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed+Rubik&family=Indie+Flower&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-  <table cellspacing="20px">
-    <tr>
-      <td>
-        <img src="images/ue.png" alt="Endre Újvári's profile picture" height="300px">
-      </td>
-      <td>
-        <h1>Endre Újvári</h1>
-        <p><em>Freelance Programmer</em></p>
-        <p>I am a full-stack web developer with more than 3 years of experience.</p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Education</h3>
-  <ul>
-    <li><a href="http://forraswaldorf.hu/">Forrás Waldorf Általános Iskola</a></li>
-    <li><a href="https://czuczor.hu/">Czuczor Gergely Bencés Gimnázium</a></li>
-    <li><a href="https://u-szeged.hu/">Szegedi Tudományegyetem</a></li>
-  </ul>
-  <hr>
-  <h3>Work Experience</h3>
-  <table cellspacing="10px">
-    <thead>
-      <tr>
-        <th>Date</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2018-2019</td>
-        <td>Software Engineer at Clarus Software Kft.</td>
-      </tr>
-      <tr>
-        <td>2019</td>
-        <td>PLC Software Engineer at Raab-Prog Kft.</td>
-      </tr>
-      <tr>
-        <td>2019-2021</td>
-        <td>Software Engineer at Random Capital Zrt.</td>
-      </tr>
-      <tr>
-        <td>2021-Present</td>
-        <td>Freelance Software Developer</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <table cellspacing="10px">
-    <tr>
-      <td>HTML, CSS</td>
-      <td>★★★★★</td>
-    </tr>
-    <tr>
-      <td>C#, C++</td>
-      <td>★★★★★</td>
-    </tr>
-    <tr>
-      <td>Git</td>
-      <td>★★★★★</td>
-    </tr>
-    <tr>
-      <td>JavaScript</td>
-      <td>★★★★</td>
-    </tr>
-    <tr>
-      <td>MySQL</td>
-      <td>★★★★</td>
-    </tr>
-    <tr>
-      <td>Angular</td>
-      <td>★★★★</td>
-    </tr>
-    <tr>
-      <td>Typescript</td>
-      <td>★★★★</td>
-    </tr>
-    <tr>
-      <td>Xamarin</td>
-      <td>★★★</td>
-    </tr>
-  </table>
-  <hr>
-  <a href="hobbies.html">My Hobbies</a>
-  <a href="contact.html">Contact Me</a>
+  <!-- Top Container -->
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Endre.</h1>
+    <h2>a programmer.</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
+  <!-- Other content -->
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/ue.png" alt="profile-img" style="height: 200px;">
+      <h2>Hello.</h2>
+      <p>I am a Web Developer. I'm the founder and CEO of Hunvari Tech Kft. I ❤ music and playing my guitar.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="code-img" src="images/skills.jpg" alt="skills-img" style="border-radius: 100%;">
+        <h3>Design & Development</h3>
+        <p>I started to learn programming in the university, since I have gained a wealth of experience designing and developing web applications.</p>
+      </div>
+      <div class="skill-row">
+        <img class="chilli-img" src="images/chillies.png" alt="chilly-img">
+        <h3 style="clear: left;">Hot Wings Challenge</h3>
+        <p>But my best skill is actually in eating hot wings. I am the undisputed king of hot wing challenges. Ghost Peppers and Corolina Reapers are my favourite snacks.</p>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you love hot wings as much as I do.</h3>
+      <p class="contact-me-paragraph">Love hot wings as much as I do? Let's talk about how awesome they are! We can code while we eat hot wings!</p>
+      <a class="btn" href="mailto:ujvendike@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/endreujvari/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="bottom-container-paragraph">© 2022 Endre Újvári @ Hunvari Tech.</p>
+  </div>
+
 </body>
 
 </html>
